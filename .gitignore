@@ -1,0 +1,4 @@
+# ignore source folder - psd image
+source/
+# ignore webstorm ide files
+.idea/
