@@ -6,6 +6,8 @@
 body{
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
 }
 .container{
   max-width: 1200px;
@@ -195,10 +197,10 @@ body{
   line-height: 24px;
 }
 .list{
-
+  margin-top: 150px;
 }
 .list__title{
-  max-width: 370px;
+  max-width: 450px;
   font-weight: 700;
   font-size: 40px;
   line-height: 50px;
@@ -211,6 +213,7 @@ body{
 .tabs__content{
   min-width: 500px;
   height: 689px;
+  margin-top: -170px;
   position: relative;
   background-image: url("../images/list-images.jpg");
   background-size: cover;
@@ -222,12 +225,14 @@ body{
   justify-content: space-between;
 }
 .tab{
+  display: flex;
+  align-items: center;
   font-weight: 600;
   font-size: 14px;
   line-height: 20px;
   text-transform: uppercase;
   color: #303030;
-  padding: 20px 0;
+  padding: 24px 40px 24px 0;
   border-bottom: 1px solid #e6efde;
   cursor: pointer;
 }
@@ -324,4 +329,55 @@ body{
 }
 .tabs__box .tab.active::after{
   display: none;
+}
+.tabs__reviews{
+  max-width: 430px;
+  padding: 20px;
+  background-color: #f6f9f3;
+  position: absolute;
+  bottom: 0;
+}
+.tabs__reviews-inner{
+  border: 1px solid #c5dab5;
+  padding: 30px 40px 30px 40px;
+}
+.tabs__reviews-text{
+  color: #303030;
+}
+.tabs__reviews-link{
+  padding: 0 8px;
+  position: absolute;
+  bottom: 10px;
+  color: #7eb152;
+  font-weight: 600;
+  background-color: #f6f9f3;
+}
+.list__link{
+  margin-top: 50px;
+  display: flex;
+  justify-content: flex-end;
+}
+.list__link a{
+  min-width: 500px;
+  margin-top: 22px  100px 22px 120px;
+  position: relative;
+  background-color: #7eb252;
+  padding: 22px 0;
+  outline: none;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.list__link a:after{
+  content: "";
+  background-image: url("../images/arrow-right.png");
+  width: 31px;
+  height: 9px;
+  right: 100px;
+  top: 30px;
+  position: absolute;
 }
