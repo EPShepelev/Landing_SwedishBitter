@@ -381,3 +381,87 @@ body{
   top: 30px;
   position: absolute;
 }
+.popularity{
+  padding-top: 200px;
+}
+.popularity__wrapper{
+  min-height: 645px;
+  max-width: 1720px;
+  margin: 0 auto;
+  background-image: url(../images/popularity.jpg);
+  background-repeat: no-repeat;
+}
+.popularity__inner{
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.popularity__right{
+  max-width: 500px;
+  width: 100%;
+  padding-right: 15px;
+  color: #303030;
+}
+.popularity__right-title{
+  margin-top: 55px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+}
+.popularity__right-subtitle{
+  padding: 50px 0;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.popularity__right-list{
+  list-style-type: none;
+}
+.popularity__right-list li{
+  position: relative;
+  line-height: 22px;
+  margin-bottom: 45px;
+  padding-left: 40px;
+}
+.popularity__right-list li:before{
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 50%;
+  width: 8px;
+  height: 13px;
+  transform: translateY(-50%);
+  background-image: url(../images/shevrone.svg);
+}
+.popularity__box{
+  padding: 20px;
+  margin-right: 70px;
+  background-color: #fff;
+}
+.popularity__box-text{
+  border: 1px solid #c5dab5;
+  padding: 30px;
+  color: #303030;
+}
+.popularity__box-link{
+  padding: 22px 85px 22px 27px;
+  position: absolute;
+  background-color: #7eb252;
+  outline: none;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.popularity__box-link:after{
+  content: "";
+  background-image: url("../images/arrow-right.png");
+  width: 31px;
+  height: 9px;
+  right: 40px;
+  top: 30px;
+  position: absolute;
+}
