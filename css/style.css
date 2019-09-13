@@ -484,7 +484,44 @@ body{
 }
 .history__text{
   background-color: #f6f9f3;
+  padding: 55px 30px 90px 0;
+  max-width: 700px;
+  position: relative;
+}
+.history__text::before{
+  position: absolute;
+  content: '';
+  height: 100%;
+  width: 275px;
+  background-color: #f6f9f3;
+  top: 0;
+  right: 100%; /*чтобы блок подвинулся влево от текста и не наезжал*/
 }
 .history__text p{
   margin: 15px 0;
+}
+.history__form{
+  max-width: 400px;
+  padding-left: 30px;
+  margin-left: 200px;
+}
+.history__form-title{
+  margin: 45px 0 30px;
+  padding-right: 30px;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.history__form input{
+  border: none;
+  outline: none;
+  height: 34px;
+  border-bottom: 1px solid #cddcbc;
+  display: block;
+  width: 100%;
+  font-size: 14px;
+}
+.history__form input::placeholder{
+  color: #a8c48c;
 }
