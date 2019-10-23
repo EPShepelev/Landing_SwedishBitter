@@ -623,7 +623,7 @@ body{
   position: absolute;
   font-size: 150px;
   font-weight: 900;
-  line-height: 115pxs;
+  line-height: 115px;
   color: #f7f9f3;
   top: 50%;
   left: 50%;
@@ -642,4 +642,70 @@ body{
   line-height: 20px;
   font-weight: 700;
   text-transform: uppercase;
+}
+.composition__row{
+  display: flex;
+  justify-content: space-between;
+}
+.composition__item{
+  background-color: #f6f9f3;
+}
+.composition__item-inner{
+  width: 270px;
+  height: 270px;
+  position: relative;
+  background-image: url(../images/comp-1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+.composition__item-num,
+.composition__item-name{
+   position: absolute;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 3px;
+  color: #a4c58c;
+  transform: rotate(-90deg);
+}
+.composition__item-num{
+  top: 20px;
+  left: -7px;
+  text-transform: uppercase;
+}
+.composition__item-name{
+  font-weight: 400;
+  letter-spacing: 2px;
+  bottom: 13px;
+  right: 28px;
+  width: 0;
+  height: 0;
+  white-space: nowrap;
+}
+.composition__item-effect{
+ opacity: 0;
+ position: absolute;
+ left: 20px;
+ right: 20px;
+ top: 20px;
+ bottom: 20px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ background-image: url(../images/comp-bg.png);
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
+ transition: all .3s;
+}
+.composition__item-text{
+  color: #fff;
+  padding: 5px;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+}
+.composition__item-inner:hover .composition__item-effect{
+  opacity: 1;
 }
