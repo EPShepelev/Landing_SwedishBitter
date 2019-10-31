@@ -929,3 +929,23 @@ body{
   text-decoration: none;
   border-bottom: 1px solid #7eb152;
 }
+.build__wrapper{
+  padding: 60px 55px;
+  background-image: url(../images/build.jpg);
+  background-position: left center;
+  background-repeat: no-repeat;
+  min-height: 700px;
+}
+.build__content{
+  display: flex;
+  justify-content: flex-end;
+}
+.build__inner{
+  padding: 20px;
+  max-width: 685px;
+}
+.build__inner-box{
+  border: 1px solid #c8dcba;
+  padding: 60px 55px 70px 70px;
+  background-color: #fff;
+}
