@@ -102,6 +102,7 @@ body{
   font-size: 60px;
   font-weight: 600;
   color: #fff;
+  line-height: 60px;
 }
 .top__inner-text{
   margin-bottom: 73px;
@@ -145,6 +146,9 @@ body{
 }
 .top-form input::placeholder{
   color: #c8dcba;
+}
+.mobile__link-btn{
+    display: none;
 }
 .top-form button{
   position: absolute;
@@ -215,6 +219,7 @@ body{
 }
 .list__title{
   max-width: 450px;
+  margin: 45px 0;
   font-weight: 700;
   font-size: 40px;
   line-height: 50px;
@@ -227,12 +232,12 @@ body{
 .tabs__content{
   min-width: 500px;
   height: 689px;
-  margin-top: -170px;
-  position: relative;
+  margin-top: -165px;
   background-image: url("../images/list-images.jpg");
-  background-size: cover;
   background-repeat: no-repeat;
+  background-size: cover;
   background-position: top center;
+  position: relative;
 }
 .list__inner{
   display: flex;
@@ -476,7 +481,8 @@ body{
 .popularity__box-link,
 .reviews__link-popup,
 .build__link,
-.certificate__link{
+.certificate__link,
+.mobile__link-btn{
   padding: 22px 85px 22px 27px;
   position: absolute;
   background-color: #7eb252;
