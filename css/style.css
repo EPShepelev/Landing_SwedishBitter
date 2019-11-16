@@ -219,7 +219,8 @@ body{
 }
 .list__title{
   max-width: 450px;
-  margin: 45px 0;
+  margin-bottom: 30px;
+  padding-top: 40px;
   font-weight: 700;
   font-size: 40px;
   line-height: 50px;
@@ -348,7 +349,7 @@ body{
   display: flex;
   align-items: center;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 600;
   width: 50%;
   text-transform: none;
 }
@@ -429,6 +430,9 @@ body{
   display: flex;
   align-items: flex-end;
   justify-content: flex-end;
+}
+.mobile-bg{
+  display: none;
 }
 .popularity__right{
   max-width: 500px;
